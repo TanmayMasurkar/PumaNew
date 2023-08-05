@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+.test{
+  height: 100vh;
+  width: 100%;
+  border: 4px solid red;
+}
+
+.slider{
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.slider div{
+  height: 100%;
+  width: 100%;
+  border: 1px solid yellow;
+}
+
+.gridItem{
+  padding-left: 0%;
+  height: 100%;
+}
+
+
+.item{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+ .bg-move {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  transform: scaleX(1.3);
+  background-size: cover;
+  background-position: center;
+  transition: ease-in;
+}
+
+.bg-move img{
+  height: 101%;
+  width: 100%;
+}
+
+video source{
+  width: 960px;
+  height: 540px;
+
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+
+/* navbar */
+.Nav{
+   z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.NavDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px; 
+  transition:0.3s ease;
+}
+
+.Navbar-scrolled {
+  padding: 0px 0px;
+}
+
+.css-19r6kue-MuiContainer-root{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+
+.test{
+  height: 3000px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1cd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #535252;
+  border-radius: 2px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+.extraPadding{
+  padding-left: 15px !important;
+  padding-top: 0px !important;
+}
+
+
+.proDescDiv > div{
+  margin: 10px 0px 40px;
+}

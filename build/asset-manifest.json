@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PUMA/static/css/main.38ae7816.css",
+    "main.js": "/PUMA/static/js/main.957c0b69.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PUMA/static/js/787.28cb0dcd.chunk.js",
+    "static/media/slick.svg": "/PUMA/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/PUMA/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/PUMA/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/PUMA/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/PUMA/index.html",
+    "main.38ae7816.css.map": "/PUMA/static/css/main.38ae7816.css.map",
+    "main.957c0b69.js.map": "/PUMA/static/js/main.957c0b69.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PUMA/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ae7816.css",
+    "static/js/main.957c0b69.js"
+  ]
+}
