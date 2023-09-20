@@ -14,7 +14,7 @@ const Banner = styled("div")({
   backgroundRepeat:"no-repeat",
   padding:"18px 0px",
   color:"white",
-  marginTop:"90px"
+  marginTop:"85px"
 })
 
 const MaxWidth = styled("div")({

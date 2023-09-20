@@ -9,6 +9,7 @@ import Shop from './pages/Shop';
 import ShopNavbar from './layouts/Appbar/ShopNavbar';
 import ProductDetails from './section/products/ProductDetails';
 import CategoryRelat from './section/category/CategoryRelat';
+import Footer from './layouts/Footer/Footer';
 
 export const Router = () => {
   const routes = useRoutes([
@@ -51,6 +52,7 @@ export const Router = () => {
         <div>
           <ShopNavbar/>
           <Shop />
+          <Footer/>
         </div>
       ),
     },
