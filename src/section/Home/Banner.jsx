@@ -40,7 +40,7 @@ const Banner = () => {
   const animateTextOnScroll = () => {
     const textContainer = document.querySelector("#textContainer");
     gsap.to(textContainer, {
-      y: window.scrollY * -0.3,
+      y: window.scrollY * -0.5,
       ease: "Power1.easeOut",
     });
   };
